@@ -148,7 +148,19 @@
 <li>По возрастанию - убыванию</li>
 </ul>
 
-<ol>
-  <li> -. g</li>
- <li> -.asd </li>
-  </ol>
+<ul>
+  <li>components
+  <ul>
+    <li>actions
+    <ul>
+    <li>
+    `formatPrice`
+    </li>
+    <li>
+    `protectedRouter` : 
+    </li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+</ul>
