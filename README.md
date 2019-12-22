@@ -6,7 +6,7 @@
 Таблица пользователей `users`
 <table>
 <tr>
-<td>id</td><td>name</td>td>mail</td><td>password</td><td>created_at</td><td>avatar</td><td>phone</td>
+<td>id</td><td>name</td><td>mail</td><td>password</td><td>created_at</td><td>avatar</td><td>phone</td>
 </tr>
 <tr>
 <td>SERIAL PRIMARY KEY</td>
@@ -80,7 +80,7 @@
 Таблица избранных товаров `favorites`
 <table>
 <tr>
-<td>book_id</td><td>user_id</td><id>id</td>
+<td>book_id</td><td>user_id</td><td>id</td>
 </tr>
 <tr>
 <td>bigint REFERENCES books (id) ON DELETE CASCADE</td>
@@ -88,3 +88,4 @@
 <td>SERIAL PRIMARY KEY</td>
 </tr>
 </table>
+
