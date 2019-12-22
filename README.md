@@ -1,5 +1,8 @@
 # myShop_app
 
-<li>
-*Первый
-*Второй > цитата >> вторая
+<table>
+<tr>
+  <td>
+    first
+    <td>
+      second
