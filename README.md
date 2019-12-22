@@ -14,9 +14,8 @@
 <td>text NOT NULL
 <td>timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 <td>text
-  <td>text</td>
-
-
+<td>text</td>
+***
 Таблица текущих сессий `sessions`
 <table>
 <tr>
@@ -32,8 +31,7 @@
 <td>text
 <td>timestamp with time zone
 <td>timestamp with time zone
-<td>text
-
+<td>text</td>
 
 Таблица всех продуктов - книг `books`
 <table>
@@ -49,8 +47,7 @@
 <td>timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 <td>real
 <td>text
-<td>boolean DEFAULT false
-
+<td>boolean DEFAULT false</td>
 
 Таблица отзывов - комментариев `comments`
 <table>
@@ -62,8 +59,7 @@
 <td>timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 <td>boolean DEFAULT false
 <td>text
-<td>smallint
-
+<td>smallint</td>
 
 Таблица избранных товаров `favorites`
 <table>
@@ -72,5 +68,6 @@
 <tr>
 <td>bigint REFERENCES books (id) ON DELETE CASCADE
 <td>bigint REFERENCES users (id) ON DELETE CASCADE
-<td>SERIAL PRIMARY KEY
+<td>SERIAL PRIMARY KEY</td>
+
 
