@@ -98,8 +98,8 @@
 
 В ЛК пользователь имеет возможность:
 <ul>
-<li>добавить аватар</li>
-<li>"выставить на продажу" книги т.е добавить:
+<li>добавить аватар (src\components\profile\profileElements\Avatar.js)</li>
+<li>"выставить на продажу" книги т.е добавить (src\components\profile\profileElements\myBooks):
 <ul>
 <li>обложку</li>
 <li>описание</li>
@@ -108,10 +108,11 @@
 <li>автора</li>
 </ul>
 </li>
-<li>Просмотреть выставленные "на продажу" книги</li>
-<li>Посмотреть новинки добавленные в течении последних 24ч</li>
-<li>Увидеть отзывы оставленные под добавленными книгами</li>
-<li>Просмотреть избранные товары / удалить из избранных</li>
+<li>Просмотреть выставленные "на продажу" книги (src\components\profile\profileElements\myBooks\MyBookList.js)</li>
+<li>Посмотреть новинки добавленные в течении последних 24ч (src\components\profile\mainBoard)</li>
+<li>Увидеть отзывы оставленные под добавленными книгами
+(src\components\profile\mainBoard)</li>
+<li>Просмотреть избранные товары / удалить из избранных (src\components\profile\profileElements\favorites)</li>
 </ul>
 
 ### Карточка продукта - книги
