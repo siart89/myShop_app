@@ -117,28 +117,28 @@
 
 ### Карточка продукта - книги
 
-В карточке продукта - книги имеется возможность ознакомиться c:
+В карточке продукта - книги (src\components\bookCard) имеется возможность ознакомиться c:
 <ul>
-<li>описанием</li>
-<li>рейтингом</li>
-<li>отзывами</li>
+<li>описанием (src\components\bookCard\BookInfo.js)</li>
+<li>рейтингом (src\components\bookCard\BookRating.js)</li>
+<li>отзывами (src\components\commentBlock)</li>
 </ul>
 
 ##### Функционал
 
 <ul>
-<li> добавить необходимое количестов товара в корзину</li>
+<li> добавить необходимое количестов товара в корзину (src\components\bookCard\PriceInfo.js)</li>
 <li>добавить в избранное</li>
-<li> оставить отзыв и рейтинг</li>
+<li> оставить отзыв и рейтинг (src\components\comments)</li>
 </ul>
 
 ### Главная страница
 
 <ul>
-<li>Поиск по имеющимся товарам</li>
-<li>Фильтр по категориям</li>
-<li>Фильтр по цене</li>
-<li>Сортировка по :
+<li>Поиск по имеющимся товарам (src\components\header\header_mid)</li>
+<li>Фильтр по категориям (src\components\book_list\listFilter\filterComponents\CategoryFilter.js)</li>
+<li>Фильтр по цене (src\components\book_list\listFilter\filterComponents\CustomFilter.js)</li>
+<li>Сортировка по (src\components\book_list\products\top\Sort.js):
 <ul>
 <li>Умолчанию ("Сортируется по дате добавления")</li>
 <li>По цене</li>
@@ -147,21 +147,4 @@
 </ul>
 </li>
 <li>По возрастанию - убыванию</li>
-</ul>
-
-<ul>
-  <li>components
-  <ul>
-    <li>actions
-    <ul>
-    <li>
-      formatPrice
-    </li>
-    <li>
-     _protectedRouter_ : формирует _защищенный_ маршрут в зависимости от того авторизовался пользователь или нет
-    </li>
-    </ul>
-    </li>
-  </ul>
-  </li>
 </ul>
