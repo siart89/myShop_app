@@ -14,7 +14,7 @@
 <td>text NOT NULL
 <td>timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 <td>text
-<td>text
+  <td>text</td>
 
 
 Таблица текущих сессий `sessions`
