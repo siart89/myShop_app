@@ -17,7 +17,8 @@
 <td>text
 <td>text</td>
     </tr>
-***
+  </table>
+
 Таблица текущих сессий `sessions`
 <table>
 <tr>
@@ -36,6 +37,7 @@
 <td>timestamp with time zone
 <td>text</td>
     </tr>
+    </table>
 
 Таблица всех продуктов - книг `books`
 <table>
@@ -54,6 +56,7 @@
 <td>text
 <td>boolean DEFAULT false</td>
     </tr>
+      </table>
 
 Таблица отзывов - комментариев `comments`
 <table>
@@ -69,6 +72,7 @@
 <td>text
 <td>smallint</td>
       </tr>
+    </table>
 
 Таблица избранных товаров `favorites`
 <table>
@@ -80,5 +84,6 @@
 <td>bigint REFERENCES users (id) ON DELETE CASCADE
 <td>SERIAL PRIMARY KEY</td>
     </tr>
+    </table>
 
 
