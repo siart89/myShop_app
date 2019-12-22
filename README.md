@@ -1,5 +1,9 @@
-# myShop_app
+# СУБД:
+Используемая СУБД postgreSQL
 
+Структура базы данных имеет слудующий вид:
+
+Таблица пользователей `users`
 <table>
 <tr>
 <td>id<td>name<td>mail<td>password<td>created_at<td>avatar<td>phone
