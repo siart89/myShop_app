@@ -148,3 +148,16 @@
 </li>
 <li>По возрастанию - убыванию</li>
 </ul>
+
+## Корзина (src\components\cart)
+
+## Основные страницы:
+
+Главная страница (src\components\pages\MainPage.js)
+
+Страница профиля (src\components\pages\MainProfile.js)
+
+Корзина (src\components\pages\Cart.js)
+
+Карточка продукта (src\components\pages\MainBookCard.js)
+
