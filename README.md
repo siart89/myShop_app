@@ -149,6 +149,6 @@
 </ul>
 
 <ol>
-  -. g
-  -.asd
+  <li> -. g</li>
+ <li> -.asd </li>
   </ol>
