@@ -154,10 +154,10 @@
     <li>actions
     <ul>
     <li>
-    `formatPrice`
+      formatPrice
     </li>
     <li>
-    `protectedRouter` : 
+     protectedRouter : формирует защищенный маршрут в зависимости от того авторизовался пользователь или нет
     </li>
     </ul>
     </li>
