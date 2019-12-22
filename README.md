@@ -15,7 +15,7 @@
 <td>timestamp with time zone DEFAULT CURRENT_TIMESTAMP
 <td>text
 <td>text
-
+***
 Таблица текущих сессий `sessions`
 <table>
 <tr>
@@ -32,7 +32,7 @@
 <td>timestamp with time zone
 <td>timestamp with time zone
 <td>text
-
+***
 Таблица всех продуктов - книг `books`
 <table>
 <tr>
@@ -48,7 +48,7 @@
 <td>real
 <td>text
 <td>boolean DEFAULT false
-
+***
 Таблица отзывов - комментариев `comments`
 <table>
 <tr>
@@ -60,7 +60,7 @@
 <td>boolean DEFAULT false
 <td>text
 <td>smallint
-
+***
 Таблица избранных товаров `favorites`
 <table>
 <tr>
